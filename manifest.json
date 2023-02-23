@@ -1,8 +1,8 @@
 {
     "name": "The Eternal Jukebox (Beta)",
     "description": "Loop a song infinitely and (almost) seamlessly.",
-    "preview": "eternal-jukebox/preview.png",
-    "readme": "eternal-jukebox/README.md",
+    "preview": "preview.png",
+    "readme": "README.md",
     "branch": "dist/eternal-jukebox",
     "authors": [
         {
