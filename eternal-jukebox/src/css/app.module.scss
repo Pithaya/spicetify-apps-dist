@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.jukebox-graph {
+    .edge-path {
+        stroke-opacity: 0.7;
+
+        &:hover {
+            stroke-opacity: 1;
+        }
+    }
+}
