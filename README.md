@@ -7,6 +7,21 @@ For when your favorite song just isn't long enough.
 A rewrite of the [Infinite / Eternal Jukebox](https://eternalbox.dev/jukebox_index.html) for Spicetify.  
 It finds pathways through similar segments of the song and plays a never-ending and ever changing version of the song.
 
+## Installation
+
+Copy the files from the [custom app's dist branch](https://github.com/Pithaya/spicetify-apps-dist/tree/dist/eternal-jukebox) to the Spicetify CustomApps folder, located in:
+| **Platform** | **Path** |
+|-----------------|----------------------------------------|
+| **MacOs/Linux** | `~/.config/spicetify/CustomApps` |
+| **Windows** | `%userprofile%/.spicetify/CustomApps/` |
+
+Then, run the following commands:
+
+```sh
+spicetify config custom_apps eternal-jukebox
+spicetify apply
+```
+
 ## Usage
 
 A new "infinity" button allows you to enable and disable the jukebox. As long as the jukebox is enabled, the current song will play endlessly.
