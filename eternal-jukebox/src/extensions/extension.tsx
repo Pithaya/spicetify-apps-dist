@@ -18,7 +18,7 @@ import { Jukebox } from '../models/jukebox';
 
     window.jukebox = new Jukebox();
 
-    // TODO: createRoot + root.render()
+    // TODO: createRoot + root.render() if React updates to v18
     reactDom.render(
         reactDom.createPortal(<PlaybarButton />, element),
         document.createElement('div')
