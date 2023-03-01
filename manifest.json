@@ -1,16 +1,41 @@
-{
-    "name": "The Eternal Jukebox (Beta)",
-    "description": "Loop a song infinitely and (almost) seamlessly.",
-    "preview": "preview.png",
-    "readme": "README.md",
-    "branch": "dist/eternal-jukebox",
-    "authors": [
-        {
-            "name": "Pithaya",
-            "url": "https://github.com/Pithaya"
-        }
-    ],
-    "tags": [
-        "beta"
-    ]
-}
+[
+    {
+        "name": "Extended copy",
+        "description": "Copy names, IDs, URIs or data to the clipboard.",
+        "preview": "extensions/extended-copy/preview.png",
+        "main": "extensions/extended-copy/dist/extended-copy.js",
+        "readme": "extensions/extended-copy/README.md",
+        "authors": [
+            {
+                "name": "Pithaya",
+                "url": "https://github.com/Pithaya"
+            }
+        ]
+    },
+    {
+        "name": "Convert japanese",
+        "description": "Convert japanese text to romaji, hiragana or katakana.",
+        "preview": "extensions/romaji-convert/preview.png",
+        "main": "extensions/romaji-convert/dist/romaji-convert.js",
+        "readme": "extensions/romaji-convert/README.md",
+        "authors": [
+            {
+                "name": "Pithaya",
+                "url": "https://github.com/Pithaya"
+            }
+        ]
+    },
+    {
+        "name": "\"Made for you\" shortcut",
+        "description": "Add a shortcut to the \"For you\" to the sidebar.",
+        "preview": "extensions/made-for-you-shortcut/preview.png",
+        "main": "extensions/made-for-you-shortcut/dist/made-for-you-shortcut.js",
+        "readme": "extensions/made-for-you-shortcut/README.md",
+        "authors": [
+            {
+                "name": "Pithaya",
+                "url": "https://github.com/Pithaya"
+            }
+        ]
+    }
+]

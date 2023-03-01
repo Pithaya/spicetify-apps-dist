@@ -1,18 +1,13 @@
-# How to install the custom apps
+# Spicetify extensions & custom apps
 
-## Eternal Jukebox
+A collection of Spicetify extensions and custom apps.  
+See each app's readme for more details.
 
-Go to the Spicetify CustomApps folder, located in:
-| **Platform** | **Path** |
-|-----------------|----------------------------------------|
-| **MacOs/Linux** | `~/.config/spicetify/CustomApps` |
-| **Windows** | `%userprofile%/.spicetify/CustomApps/` |
+## Extensions
 
-Create a `eternal-jukebox` folder, and copy the files from the [custom app's dist branch](https://github.com/Pithaya/spicetify-apps-dist/tree/dist/eternal-jukebox) inside it.
+-   [Convert japanese](./extensions/romaji-convert/README.md): Convert a selected element's name to romaji, hiragana or katakana.
+-   [Extended copy](./extensions/extended-copy/README.md): Copy a selected element's name, ID, URI or raw data to the clipboard.
 
-Then, run the following commands:
+## Custom apps
 
-```sh
-spicetify config custom_apps eternal-jukebox
-spicetify apply
-```
+-   [Eternal Jukebox](./custom-apps/eternal-jukebox/README.md): Loop a song infinitely and (almost) seamlessly.
