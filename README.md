@@ -6,7 +6,7 @@ Go to the Spicetify CustomApps folder, located in:
 | **Platform** | **Path** |
 |-----------------|----------------------------------------|
 | **MacOs/Linux** | `~/.config/spicetify/CustomApps` |
-| **Windows** | `%userprofile%/.spicetify/CustomApps/` |
+| **Windows** | `%localappdata%/spicetify/CustomApps` |
 
 Create a `eternal-jukebox` folder, and copy the files from the [custom app's dist branch](https://github.com/Pithaya/spicetify-apps-dist/tree/dist/eternal-jukebox) inside it.
 
