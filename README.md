@@ -7,6 +7,9 @@ For when your favorite song just isn't long enough.
 A rewrite of the [Infinite / Eternal Jukebox](https://eternalbox.dev/jukebox_index.html) for Spicetify.  
 It finds pathways through similar segments of the song and plays a never-ending and ever changing version of the song.
 
+> :warning: **Note**: The custom app is still in **beta**.  
+> See [known issues](#known-issues) and [upcoming features](#upcoming-features).
+
 ## Installation
 
 Go to the Spicetify CustomApps folder, located in:
@@ -37,3 +40,15 @@ Changing the current song will automatically play it through the jukebox.
 The custom app allows you to see a visualization of the jukebox's progress through the song.
 
 Holding the `SHIFT` key allows you to keep repeating a part of the song by "jumping" through edges linking the same beats.
+
+## Known issues
+
+-   Audio lag when jumping between parts of the song
+-   Jukebox "freezing" and getting out of sync
+-   Songs getting stuck in short loops due to issues with the graph generation
+-   Playbar button not correctly synced with the current state of the jukebox
+
+## Upcoming features
+
+-   More graph interactivity
+-   Settings menu
