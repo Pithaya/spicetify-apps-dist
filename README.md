@@ -7,7 +7,8 @@ For when your favorite song just isn't long enough.
 A rewrite of the [Infinite / Eternal Jukebox](https://eternalbox.dev/jukebox_index.html) for Spicetify.  
 It finds pathways through similar segments of the song and plays a never-ending and ever changing version of the song.
 
-> :warning: **Note**: The custom app is still in **beta**.  
+> **Warning**  
+> The custom app is still in **beta**.  
 > See [known issues](#known-issues) and [upcoming features](#upcoming-features).
 
 ## Installation
