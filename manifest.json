@@ -1,16 +1,35 @@
-{
-    "name": "The Eternal Jukebox (Beta)",
-    "description": "Loop a song infinitely and (almost) seamlessly.",
-    "preview": "preview.png",
-    "readme": "README.md",
-    "branch": "dist/eternal-jukebox",
-    "authors": [
-        {
-            "name": "Pithaya",
-            "url": "https://github.com/Pithaya"
-        }
-    ],
-    "tags": [
-        "beta"
-    ]
-}
+[
+    {
+        "name": "The Eternal Jukebox (Beta)",
+        "description": "Loop a song infinitely and (almost) seamlessly.",
+        "preview": "preview.png",
+        "readme": "README.md",
+        "branch": "dist/eternal-jukebox",
+        "authors": [
+            {
+                "name": "Pithaya",
+                "url": "https://github.com/Pithaya"
+            }
+        ],
+        "tags": [
+            "beta"
+        ]
+    },
+    {
+        "name": "Better local files",
+        "description": "View your local songs, albums and artists.",
+        "preview": "preview.png",
+        "readme": "README.md",
+        "branch": "dist/better-local-files",
+        "authors": [
+            {
+                "name": "Pithaya",
+                "url": "https://github.com/Pithaya"
+            }
+        ],
+        "tags": [
+            "local files",
+            "library"
+        ]
+    }
+]
