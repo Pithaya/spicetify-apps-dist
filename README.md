@@ -13,13 +13,10 @@ It finds pathways through similar segments of the song and plays a never-ending 
 
 ## Installation
 
-Go to the Spicetify CustomApps folder, located in:
-| **Platform** | **Path** |
-|-----------------|----------------------------------------|
-| **MacOs/Linux** | `~/.config/spicetify/CustomApps` |
-| **Windows** | `%localappdata%/spicetify/CustomApps` |
-
-Create a `eternal-jukebox` folder, and copy the files from the [custom app's dist branch](https://github.com/Pithaya/spicetify-apps-dist/tree/dist/eternal-jukebox) inside it.
+1. Run `spicetify config-dir` to open the spicetify folder
+2. Go to the `CustomApps` folder
+3. Create a `eternal-jukebox` folder
+4. Copy the files from the [custom app's dist branch](https://github.com/Pithaya/spicetify-apps-dist/tree/dist/eternal-jukebox) inside it.
 
 Then, run the following commands:
 
@@ -53,3 +50,16 @@ Holding the `SHIFT` key allows you to keep repeating a part of the song by "jump
 
 -   More graph interactivity
 -   Settings menu
+
+## Uninstall
+
+1. Run `spicetify config-dir` to open the spicetify folder
+2. Go to the `CustomApps` folder
+3. Delete the `eternal-jukebox` folder
+
+Then, run the following commands:
+
+```sh
+spicetify config custom_apps eternal-jukebox-
+spicetify apply
+```
