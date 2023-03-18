@@ -56,3 +56,16 @@ As artist images are not available, the artist's first album's image will be use
 -   Artist's album list
 -   Multi track selection
 -   Keep search, sort, and scroll information on navigation
+
+## Uninstall
+
+1. Run `spicetify config-dir` to open the spicetify folder
+2. Go to the `CustomApps` folder
+3. Delete the `better-local-files` folder
+
+Then, run the following commands:
+
+```sh
+spicetify config custom_apps better-local-files-
+spicetify apply
+```
