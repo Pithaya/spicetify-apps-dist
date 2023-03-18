@@ -27,3 +27,31 @@ Then, run the following commands:
 spicetify config custom_apps better-local-files
 spicetify apply
 ```
+
+# How to uninstall the custom apps
+
+## Eternal Jukebox
+
+1. Run `spicetify config-dir` to open the spicetify folder
+2. Go to the `CustomApps` folder
+3. Delete the `eternal-jukebox` folder
+
+Then, run the following commands:
+
+```sh
+spicetify config custom_apps eternal-jukebox-
+spicetify apply
+```
+
+## Better local files
+
+1. Run `spicetify config-dir` to open the spicetify folder
+2. Go to the `CustomApps` folder
+3. Delete the `better-local-files` folder
+
+Then, run the following commands:
+
+```sh
+spicetify config custom_apps better-local-files-
+spicetify apply
+```
