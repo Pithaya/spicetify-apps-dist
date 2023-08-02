@@ -19,10 +19,11 @@ View your local songs, albums and artists.
 
 ## Installation
 
-1. Run `spicetify config-dir` to open the spicetify folder
-2. Go to the `CustomApps` folder
-3. Create a `better-local-files` folder
-4. Copy the files from the [custom app's dist branch](https://github.com/Pithaya/spicetify-apps-dist/tree/dist/better-local-files) inside it.
+1. Run `spicetify config-dir` to open the spicetify folder.
+2. Go to the `CustomApps` folder.
+3. Create a `better-local-files` folder.
+4. Download the custom app files as a zip from [here](https://github.com/Pithaya/spicetify-apps-dist/archive/refs/heads/dist/better-local-files.zip).
+5. Extract the zip and put the files inside the folder you created in step 3.
 
 Then, run the following commands:
 
@@ -60,6 +61,8 @@ Note that for performance reasons this behaviour is **not enabled by default**. 
 ![preview](https://raw.githubusercontent.com/Pithaya/spicetify-apps/main/custom-apps/better-local-files/docs/build-cache.PNG)
 
 The cache can take some time to be built depending on how many tracks you have and how large the cover images are.
+
+The **clear album cache** menu item allows you to clear the cache and go back to the default behavior.
 
 ## Upcoming features
 
