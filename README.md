@@ -13,10 +13,11 @@ It finds pathways through similar segments of the song and plays a never-ending 
 
 ## Installation
 
-1. Run `spicetify config-dir` to open the spicetify folder
-2. Go to the `CustomApps` folder
-3. Create a `eternal-jukebox` folder
-4. Copy the files from the [custom app's dist branch](https://github.com/Pithaya/spicetify-apps-dist/tree/dist/eternal-jukebox) inside it.
+1. Run `spicetify config-dir` to open the spicetify folder.
+2. Go to the `CustomApps` folder.
+3. Create a `eternal-jukebox` folder.
+4. Download the custom app files as a zip from [here](https://github.com/Pithaya/spicetify-apps-dist/archive/refs/heads/dist/eternal-jukebox.zip).
+5. Extract the zip and put the files inside the folder you created in step 3.
 
 Then, run the following commands:
 
