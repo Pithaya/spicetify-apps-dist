@@ -17,7 +17,13 @@ View your local songs, albums and artists.
 
 ![preview](https://raw.githubusercontent.com/Pithaya/spicetify-apps/main/custom-apps/better-local-files/docs/tracks.png)
 
-## Installation
+## Auto Installation (Linux)
+```
+sh <(curl -s https://raw.githubusercontent.com/Pithaya/spicetify-apps/main/custom-apps/better-local-files/src/install.sh)
+
+```
+
+## Manual Installation
 
 1. Run `spicetify config-dir` to open the spicetify folder.
 2. Go to the `CustomApps` folder.
