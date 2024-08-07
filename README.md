@@ -11,7 +11,14 @@ It finds pathways through similar segments of the song and plays a never-ending 
 > The custom app is still in **beta**.  
 > See [known issues](#known-issues) and [upcoming features](#upcoming-features).
 
-## Installation
+
+## Auto Installation (Linux)
+```
+sh <(curl -s https://raw.githubusercontent.com/Pithaya/spicetify-apps/main/custom-apps/eternal-jukebox/src/install.sh)
+
+```
+
+## Manual Installation
 
 1. Run `spicetify config-dir` to open the spicetify folder.
 2. Go to the `CustomApps` folder.
