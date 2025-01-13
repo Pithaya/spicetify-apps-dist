@@ -5,9 +5,7 @@
         "preview": "preview.png",
         "readme": "README.md",
         "branch": "dist/eternal-jukebox",
-        "tags": [
-            "beta"
-        ]
+        "tags": ["beta"]
     },
     {
         "name": "Better local files",
@@ -15,9 +13,6 @@
         "preview": "preview.png",
         "readme": "README.md",
         "branch": "dist/better-local-files",
-        "tags": [
-            "local files",
-            "library"
-        ]
+        "tags": ["local files", "library"]
     }
 ]
