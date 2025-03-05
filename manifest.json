@@ -14,5 +14,13 @@
         "readme": "README.md",
         "branch": "dist/better-local-files",
         "tags": ["local files", "library"]
+    },
+    {
+        "name": "Playlist maker",
+        "description": "Create playlists from a drag and drop editor.",
+        "preview": "preview.png",
+        "readme": "README.md",
+        "branch": "dist/playlist-maker",
+        "tags": ["playlist"]
     }
 ]
