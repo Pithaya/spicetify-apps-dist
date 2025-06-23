@@ -18,6 +18,12 @@ sh <(curl -s https://raw.githubusercontent.com/Pithaya/spicetify-apps/main/custo
 
 ```
 
+## Auto Installation (Windows, Powershell)
+```
+iwr -useb "https://raw.githubusercontent.com/Pithaya/spicetify-apps/main/custom-apps/eternal-jukebox/src/install.ps1" | iex
+
+```
+
 ## Manual Installation
 
 1. Run `spicetify config-dir` to open the spicetify folder.
